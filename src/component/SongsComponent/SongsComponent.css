@@ -1,0 +1,29 @@
+.album {
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.songitem {
+    text-align: center !important;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(235, 225, 225);
+}
+
+.counter {
+    min-width: 275;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    margin-bottom: 20px
+}
+
+.title {
+    font-size: 18px !important
+}

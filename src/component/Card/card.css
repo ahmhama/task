@@ -1,0 +1,12 @@
+.root {
+    width: 100% !important;
+}
+
+.imgcard {
+    width: 100% !important;
+    height: 140px;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: none !important;
+}

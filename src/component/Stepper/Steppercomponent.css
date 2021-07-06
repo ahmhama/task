@@ -1,0 +1,22 @@
+.stepper-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: aqua;
+}
+
+.makeStyles-root-1>div:nth-child(2)>div>div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.active {
+    border: 1px solid #000;
+}
+
+.notactive {
+    border: none
+}

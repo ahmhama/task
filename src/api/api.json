@@ -1,0 +1,469 @@
+[
+    {
+        "id": 1,
+        "name": "Rihanna",
+        "img": "https://wallpaperaccess.com/full/441144.jpg",
+        "gender": "female",
+        "data_singer": 0,
+        "albums": [
+            {
+                "album": 1,
+                "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGBgaGBgZGhgYGBoYGRgYHBoaGhgYGRgcIS4lHB4rHxgZJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHxISHzQnJCs0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIANMA7wMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABCEAACAQIEBAMFBAcFCQEAAAABAhEAAwQSITEFIkFRYXGBBhMykaFCscHRBxRSYnJz8CMkM4KyFTRDdJKzwuHxY//EABkBAAMBAQEAAAAAAAAAAAAAAAECAwQABf/EACYRAAICAgIBAwUBAQAAAAAAAAABAhEDIRIxQQQiMhMUUWFx8LH/2gAMAwEAAhEDEQA/ANHh/f4fGYlruGF5rlzNaxBZiosxC2QEtubeX0zT4USxPtJcRS7YTMADIttce5EScqPZQMfDMKm4jxt0ble3l957tVay7vn/AIveAR46VTucUv4gG0t9LbNywmGb3mUhpKFrpVdEbmIMRsaBwQ4V7R2bzIqqFN22blpgQVuIpAaDAIYSJUjr1rzj9Mn+92v+XH/cuVsuD4DDWLlosxAt2rqYdSMqIisvv2LZiWcsVBYxtoKx/wCmAg4qyRr/AHcQfA3HijHs4871rqoW218tfTStP7GcGt37x97qtsB8n7XNEn90V6ULuRwqW0RFTPoOYtrlUIBoIG861PN6pQfFK2WjibVnm+G9jHKA3L1u25UuLZ5nCgaltRHyrLlANyN401nyr1nHol+wP1y2uZj8KglwC/IoAli2WJgkAg71Fwnh2HXEv7m0ECW1BzJAzsSVyhusDfxqUfVtJuW/+DywrSWjyo66+lNbx2o57QYO77y7fNt1ts5ysVhYHKCPMg0Nu8JxJUOLFwo0Q2QwxJgAVqeSLinZLg06Bl67Vdmon/sLEszoLFwsmrLl1UROvprXG4NfVBdey6oYhipAMmB49vnSqUfyBplALEdzUiLRJOAYklf7vcl5y8h1A108I19Ka3Drgf3RRxc2yZTmnTYeWtBzX5Cog9qjOpove4JiRmBsXAVGY8h0XWCfDQ/Kh9hOv9elFST6A1+RqWqt28OAOb5CuPcyAD7R69h5VUzydTPjR2znSCHukP8AU/8AuoLtiOsj5j5biq+f+hUtu73+fX/3Q2DREyUwDWrbuDUCprTWChpOlIP5U910qMRRAPR6mCjuD56H/wB02zbLdoG5NSAJ4+YE0GxkjhQEUy2I1+nlVkKfst9K6l0hucHzpLDRdQSvprpUAwcHMpKnw1Goq9gbYIyzmBlVbtI0+tOuW9dYGsEeIGh+hqfJplVFNbN6Pbq+wE2sKQQHU5bzKxgGQ2XUwwE/umq+I9uLsFf1bCvqAQFvdJgxkOo5/rWutewthVVFvYoKoAUe++ELMAabcx0qY+xtsyf1jE82/wDaDX4v3f3m+dW9pmMJiP0gXLec/quFBgCMt1S5YyU1Ud5jwoFieLPxbF2feKluFyHIS0Krlmbm68xr03Hfo/w14EPdxDgkMQbn2hMHQeNYD2r4Jb4ZirQw2b/DDw7ZpOdlI8oAFB3tR7Hh2rNXieCWVtG1h1W08Qt3LmZWMc06EnTv1qhj7bYWwlsXHe7evInvHMu7MwDt5BQYqvb9urYXXDXC4GwZMs98x6VleMcTu4m6LrwhWAiLMWxvoTqSTrNY8fp8s5VJUu9mrkl0elXuHsbiXBunvBIEEhlykSNuhIqC+WtJicRcWMsuB3S2gCwf4lb5151/tTE5w/6w+cKVBkQAdxliDtvU+P8AaDFXrRsu65CAGOU53jUyekkdBR+yyWth5s9BW296zbW4isHyM4EwIi5EdASFFXGW5nBkKgQrkA1mdHneBoIFeS2eJ49lRbVy6VDhFCgfHGcIW66SY7AzXf8AaPEs73zcbMoyFiUgAZGygTl1LrpPWl+1n4aom8is9Fsu9lMViLisq53cIxkZLaZVgdzk+tdxyXr+FRcgzucOXyfCgzoznyAUj1rC8Q4vjnsfq9zIFbKjTzXHOeCTrIBdSJAjQ9qWG4vj8OAwdWRFICu6ZJIgDMplyNeWuWCXersPJHpL8QcYlMMqLBtu7nqACEQT4trUeEwH94vYh7ctyW7Z7oqgsR5szD0rzLEY7GveGJzBXdURCjKQEJKqMsnUsp37VwcT4gt1gMQc7JmfnRgiqM0nokA7eNH7edaroHNHo3F7OI/Vbon3l4hwoRcvxHKixOmVW3J6V4x7rKSraZSQfAjQijdvE4/I1tWuG2Cc4BUkZ8rmW31zqfWgjLllSI5iCN4IMET51bFjcE7Em1KimwJJPp6VYXCzFXMDw/NqdulHcLw8dvSjPMo6Gx4HJWZc4YzEU4YU+NbV+GCJqnf4fGlIs6ZR+nozAwpIGnWp0wpAMg1o7GD5YIgzUzYEQB4a0HnD9Axl1DUCJNaLFcN7a0Ou4QielVjkTRGeJplNnOwppvMDvUy2u9Nu2tJp7ROmRri2XpVhMUGPNVMUo6imaQFJh3AsUaRtInxjrRzE4dWOgEPrr8/wrN8OvZiEPTSR0HQ/OtWXy21LdObpt8Gnr99QknZeEkeu8TtnPbbKxAYAsqzpIG6sGH1HhTuP2LjogtZswvWScrFSEzjOZG4ykyKbxWyWdElVLSUJQtlKEMdcw0OlO4wt7JKm1kCP7xXVmzAAGVhl7MIJjXeqx7M8ulZT9mFBuY11HI+J5SNA2W2iuw8MwI8waxX6VFnF2/8Alx/3LlbX2evYh8jEIuHa0hRfdG1czMJ0XO0KAR6zWS/SUk4u1/IH+t/zql+4bCrkkYb3VL3VX/dUvdVXkbfplD3VRYhIFEzbqrjrYy69dK6UtaOcKQBwvErlsQjZRnDkDTMRHK3ccoq0nHroMgJMMCckZiQqknXWQqjscu1DLqR5VFaTrvWezG1sMXOLuxBbJnDAhwIflbMozEfDMabxpNMxPGrhVkXIisZYIuUSScx67z561SW3roKmXDTvpS3Q9eEPwXGLqABWgBUUcs6Izuo+bt86mfjdzOt0qmdRlWFI0Ayz8h9etRfqniB5a6U2/bVRPxGOu1Dkmdxosjj14AQVRuUllXVsuTIW76Iq7bUODF3M9ySYiSxk6dNahLzV7hmHJOgozlStghHlJIMYK3sAKN4a1AqHA4XKKIolefOTkz1IxpDlSne4qe2lTe7oJCtg1rAFMKUSdPCq9xKVhTBlyzvQbH4UR2PetI6VQxdsGmhJpnSipRMm6bjqPrUV4SJFGMThvDX8KH37YArZCVmKcGgQ9MB71YvgCqmatC2ZWW8MxDrHetThr0crHf8A+/hWVw4lhR2yw1J11WPkalN0Uge/Ym4DdVl1NtXJGgHMAAC08p0nbWa7xawb1gqdFZZdQcpdYJKZtcoOxPYnbeoeIIVbOwZ0gHLKqmYSFB+00sRAJI10ok7ckmF5TMwAums9NDpTp0yUuitwTGrew9u6ilFdAyqdCBGg00rD/pBScVb/AJA/1tWx9lbLJg8OjRmW0gOUgiQNYI0isn7dD+9W/wCSP9bUZS4t/wBK4PkjMe6rhtVeNqm+5pfqnoFFrdD+L24SdJ8aPe5oZxi3ynUetc8mhZdGNKCYIO/1Ow/GpUwx3JAHYVPinFsCd4PmJO3md6HNiWO30oW2Y3S7CKpHh9Ka6P0mPGqNpnJ/PWrFy6UEBtereNK1RyerE7P1J/r0qpdJbrTmxJPU0sOjO4ApulbBfLSHYbCljWp4VgcomKiwODgCjeGt1ky5OWkbsWLjslRNKtIkUxEqygqCKtkiLU0UxKexp7RNjGqq4qdqicUrORSuCqtxJq9dFQOulBMoCsQtCcdb0MaUdvJvQvE9RVYSpk5q0ZfEiqjVe4gINUGFehB2jy59k+Fkt60b4cczEeJP0oThEIBPar+GbIM06ntSz3opj0fQ3Fbt0XEKBTGiqwkuzEAsI1UIoknxp/GhcVTcW8Laojlx7sNm0kZSTynpGu9Q47GW0vW+ds2ZkKKASZWRIiSFjp31oxctq4EgESGAYdRtoaMXTJSWkAfZPhVyzYs57j6W1BtFUyKx13ChpE96C+2aTi0/kr/ret4FrGe1aTi0/kr/AK3pMrtNsfDqSAwsUvc0QCCmm3WW2buYPa3WW4riQHZWHwyTOwA2Nba6mmgmKwHtCWe42ZAuwnYkfvAb+dPHfYJStGXxd3OxMzPWu4bCnrRS3hUXWPyrj3V2XXzqvPwjPw3bK7kINNTHyoZecsdRVrE4lRM6+A/OqHvsx0WKpGOrElLwSpbJPnWg4dhQqjTU1R4VanU0YW2Z0aKhllftNGCGuQYwduiSW6ALavLBR58DVzDcWKHLdXKf2ulZnE0uVBpVp4FRWcQrCQRFTKaRo6x612uqKUUAMYwqOpWqJq45FZ6gcVacVSxWKRNWYeXWik30NaRw4fNQnitnIRPWruH4k7NyJp41F7Q3GbJmUDl6elVhGhZP8GH4n8dVUQkirOO+OrnCrPNm7bDudIH1rcpcYnmuPKTG3rWWE26nwqHOWMdJJ3q7jkiT6DyofhAWaB2oJ2rGenR9G8SAV1u5bko6gfDD5hkVVMyo5p0HTWaO2iSBIgxqJmD1E9aFY24q3EZipVSSZaPdlhCEIAcxYhtSREaUWtOGAI2IBHlRJvpD6x3tQP70n8ofR2rYzWR9pf8Aek/lf+bUk1cQwfuK4SlkqZVmmXHCgk1HgabIbgABJ2Fede0+L95cblUZRlDDUn+I9KOcb4oznIh0JgCDr4x18hWTxKANzMSCdt9e5PXyFcqQaYOtK7MFJMASfAb1Rx96TA0FHdAlxgZOWPyHnFZhzJNXx7ZLJpUMWpsKusmmZdPGiOFwZKAkaydf3YM/WqTaolCLb0FeGpy1fcZdar8LTSO1Fb+HJUwJPbb61gk/celBVEiTiSL8RAqc4604gkHzrI4s3EcIxyqW0aJgVd4hgrtsrlvO4ZCykDRmkcoA6RVlgtXZB52nTQbNiDmsv6TpV/DcUcEK6n+vGsdhHxMjKJMFoIg5RuTWpwBzoGG8bVKcHHbKQyqf6NFbuAjSpKCYe+VMUWW7yzU7Q7TR12oTjuLKkhRmPhU2KxHShV0BRnI/rzpUrYapWyFsZeeYGQdzpTsNhrYMuwZp6nas/jcbdUksrQCPikLr8O2p08ajwz3bphLaNyltsvLMd5rUsLozPPFM2S4pF6j0oRxTE52kbDSs9bxRzxkIg6qCTFGxbOSTSuHErDJz6M3iV5j50R4eYXygevT76o4k85q3ZYBD/EtXfxMyXuYzjDwFHYajxpvB7G5Jj0qHiolwB2FE8IyopJIOXTwJMaegBrnqNIVblbPdcdw+215QxE3MpKsx/wCHnaFWZPx+QietHkAGg2jSgOPbEe8yqVUEpk0LEmWz6aaZQJ6aij6TGsT4THpTkpXStnWrLe0K/wB5T+V/5mtSRWY48P70n8v/AMzXVZ0exKlZ3inEd1QgalQToJG+vatHfdVUk7Ca8k41i8rubbhpJCMZ5J1Ig7GlmqRaLvY7jXFgkqmrn4ngiR+yoPwg96yvvizEkmdvLwqQ2Xbcknv+Z60U4NwdnOdhCL1P2m7eOmtIlGKGfKTIBaIQr3BP40EdNvnR/iJA10HTQ9t6A3m1MHxp8f5Ey6pEbtOp/qKMYbiDMh5RyKTPcRH4UGH40V4ckWb57Ig/6mKj76aatCxbXQY4FczKD4n760ttJrI+z78p861+FesOVVI9DE7iinxDhK3RDelCm4NeVQiuSgbMAYOU916itkEkUxrddHJKPTFljjJ2zNWMHeXQuwLAZypXMx8WIkjwq5wvhxtsTnJB3UwfWaLG0KRUChLLKWmBYox6Kr2tQaIKOWqq70RVOSkSKN0B7ia1V4hhmcfFlUdAsyenyj60SYc1PZJFCMuLs6S5Iz2PQu4dkW5ChTErnA2BBnbuKpWMbdtqy27MO4C5yYCr0VFA2661qVwwFdOGrQvUSJPBFmX4LwhlJd/iOvl4UQx6QtGDbA6UG4w8KSek1Jyc5FVFQjoxmJPO3nRHDYcvZLaaRP8AXlQjPInrNFvZXHAMUYAzrHeeU/Sts0+OvBhi1z/ozH4dlhyuhET+8Nx91UlJgJO0sfEnSfpWwx+A0a3oQJe30nSCpHXSfUVncPh5d11kHTxG2vjpSwlaGnGj6Fu3m96RbDs0QQwi2u3NJG+mwPnRW2IG8+PfxriKPqafFVMzYqyvtFcVcSjMQo91uTAHOdSa1JNebfpIts+JsIn2rZ6E/aOp8K5vjsMVydBjHcQw2XLcdNROWZJGuy9RpvXk/tFbRLhFppQQRyxoTsfGjOKuJaV7akM5ZQWC6AbwCTMeNZ3G3MxMzzMIAiTHcGpyyOTqjXHGoq7KLYsr9nzJJNS/7SuMAM0KuoGwE7nxkaVWubH59l7fPSqzg99vv8qMYom5SQ/E3ww0+XXzqmwqQ2/KpETvVFpE2nJ7O2LY2Md58egq9Zb+xxIB+zY/7i/nUSKQsAHfXSQIqxYOa3iT1PuR2194D+ApHLY3HQ7gZiR61q8LcrJ8JaGjuK0tgxWTP8jbg3E0GHfSpiaG4a5VxXqLZRxpj5qG49PzVBEmgCjiGTRT7FU7FrXer7RlirQ6sST2Crm809H1ipHUTUdy3GtSZRImFIVyaYz0EzqIsS9Y/wBpcVCNrqdK0uMu1hPaK9LqvYE/OI+6r4I8pITPLjjf7KOF1BFRWyUeQYgz403DXMrT02NS4i3rmG1b33TPNXRuMBxAX0Ckw6iR4z0FD8Zh+fMAAdQV1069POgGHvsjK4O33dq0dnHC+ushh2HP9+orLKLi7RpjNSVM+hU/E06uAV0itBjGmvMv0mYplxNhQYzWm8T8fQT9TpXppFeWfpUZhibOUxNltRo0B9QDNCXxHx/JGSxN8xqROkqCxAPdm2OnQVQxF4HYCOsCFUxoZPhTnuNH7oIhI09T3jU1Xd2JzHQTmCgTm6aeU61nSNzYy4gLEDXp4AbiT0iTVcWwZMePh4gd5qQs2h0VZ27ySRv8YknXauKxInbfUnlB6mDVUiba8nFws9/xiO0U39UEE7Rrr+XWpmu7gHb7QksdNR5Uxbkfs6iJOrDyHeuthqIikTGm2/z29a5gELpeE6H3ZPo4ApPcOhJzaxmbeB3A2p2A/wAG+QdYtHy/tV/Ou8CS7RDhjkceB9d9jWpsOCKyja6j18+9GOFYqRlO4qOZWrLYZU6NDZaiFlqF4dtqvo0Vks1Mt0PxLOhlflVtHpz0yoQHJi3OpG1EExq5fiH4/KkloHpvUNuwM+g1k6fjR2juyvdxjg6L1/ryqzauO8SMvrNTugmuilk/AUzpOlVb7xUztVLEtQQyB2LujWdqwGMvl3LHqfpWm9osZlTIDq0+cd6yZr0fTQqPI8/1WS5cV4HKs1Ml0fCRpUS1xq0vZkCVtB7tzvDJHkZBptq8VOZWIO3pUdg/2dz/ACD5k1CqydJ9KnQ6k0fWqmu01a6aAgmryr9K3+84ft7pj8nmvVK8v/SkhOJsRp/Yvr/mNLk+I+P5Iwl4AnYxvod+gfXq2noKgKgzOgEGNf8ApUePWiiYcupOyKYkg8r9Fk78uvrUZws6yAvQg6HuSehO1ZlKjdQOKyQWGugAEDcmAs/Y7/hUPui0EidYUdxMHLvlAP0olft9DG2y9VPRZ8ZmqzmCcxGh5hIH2eVAQdv2j0p1KwOKKbAgwSAAd1Gvcgd9Kby6kE5Z17k7jrpVlkzcx8tAfMKB28ag6ToI0H7InoP2zTp2I1RXunSACD16n51Nw4gJeBnUW+k/8RT+FRPb3j4dTtGg3J71xDA8eXTY/FINN4ErdnUBDGTPnp17VNbbI2ao7smGgjWNe9TMulLIeKNBg78iilq5WQwGIytBrQWbtYskOLNUJckWcZiXWMigjrrBqtd4pdAkWmI/dIJq1nBFSYU9o03kxC9xT4uN7HopWfaJPtowPY8v1jWrScftN9qB2DDNHmRRl7eHdAHUZttAJ8zVW3wTBqNixnt4mtXEnv8AyAze09qYXOR3ymPnVizxlGiJk+Bohcw9pPgQAeVC1UFs2kA9NqjljGtjpOtl57tDcfilRSzHQf1FS3r0A+p8qxXHeJ+9bKPhEjTqep8qlhxOcv0TzZFCN+Shj8U1xyx67eAGwqEioxUgr1UklSPLbt2zq08ioz3qUma5gLKW4sFv2rioB3yrmJ+qinW7eUTpm+4VbxI92LaEaomYj/8AS4c0HyUL8qGtdJO8+Pep9j9I+gfZ72r947pfa1bCqhRpKG7nZ8pCMxKwEMqdRmWYrXisZxA4K1BtIruTPI7ADUSzsp2mPOmD2lv5jz2iZ1XKQPKZn1qcskYugKLZtq89/SMk4iwYJ/s31G8BxIrVYHj9tl52W240IYgA/wAJ61mPbB0vYiyyMj5bb/CQdcymN96E2pR0NBNSRSwXDbiFlAOXQlsoYZtCzCeuUjXwrl3g0gnXcsXUggwFyoQNCxgjetJw63lTmK6ierDIBpp503FXdCihM+YKFgwtwqcpJGkDeo8EkV+o7MHxPCwwCqy82gIGSdyEbWXgiY8Kz2JwhJy65Rm3g5ddRI716wmBRiqwjJmzL8TFJAzsw20aYoBxPgTqrlVhspc8wiAdFyjYnv1ocZRpropHIno84c6kRAG/YDeAe/jTLiZtdgvQHTwUefWiuO4eUBUjmGrAiIJ15h1I+6hTgd4Cjefs9T67VSLGZGqyshYE6sZI8BO01CjGfPz1qZddToolQIMxOyjr39aSoM6zsTufLXamuhR7TlgiNdNI0jWT10pWzIq5eYMIjUR30HSapICCVJpE7Q9UzjLrRLh+KPwneqZSuKvWlkrVDRfF2aW1rUxsTQjBY3odxR3DXwQKyuLizQnatESXLiaA5h2YafnTjj7h+wo9D+dXigimlKZZJLyH+lFnd/iPyFLJAqw5A7Vl+P8AHAoKIZbYkdB+dGMZZJUhMk4wVspe0PFd7aH+I9vAVmi1JjJmka9OEFCNI8qc3OVsce9cmuAxUiqOh+dOIOG1WcAozZ3+FIJH7RGoT1MT4VAoHU+gpXLk6DQDYf118aDsKot3HZyzN8TNmJ6SRt6QB86msYGd5jw1oel0j/7V1OJtoIFJJSXQ8XF9np+FdJNtGz5tiq5Q5E6ZyIAA+sjpUb4WQQkZlcgDPmZ1IBTYECJInwitPjfZIIspmuiDKsBmEmZGWM256HegdrhoBhQ6FpBRMwkCY2AnfbxrLxrtD8k+mQ45lKFsylJGRmKq7SdFIJADD50zhKzdTQE/EJgQQRBg9RWj4d7GqwL3M1stsBGf/MTt5VV4nwIYe9bFpixZWJzZRsQNPU1yjK7oHJPVmjW8MmYBisEwB0mIy/KuhWYFWzjUQSBmLDVjppqNJp2EtwgBnvIPXt41I1uNiRAA3lTBnbv0rRGLYtop2+ucrLbqZkISfdIANJmfmasC1AMAydTEDX8l7U3rEtvMFZylhK6D7KxPrTnde4ggvOVogNzy22vjRqNAfZkPaXhLyHGdoLDMMuZzvqsarEktptFYHiWEKk5lzaySPhOmi7aQTPpXr2ORGQywBE7DXIdkA/eMVgeI4IrcdmXIogRBVGlRCg9HmdPGsrXF2jVjkpKmYoOEbm1AiBrzAaQPMyZpPOYa9sukEiPzq7etrl2KgkZYE5NgQSfEVUuAqYYmZg9QB8ceetUTsLi0H+GYdbilRBGZTlLQ+WYLaxMb+lV+MYAW8uUGAWWToTB0Jox7P21KFsoOugbRNDMh+/hVj2ntgWpggNcUliQQZt7oe2grOm+Q7ZkgKZFSFSJB3B6belNJqgaORVixjmTTcVXzVDdcDeucU9Hc+Ow9a4+g+IxTb3tNZA+KfIE1kXvAk+W9U8Q3308fTRfZGXqZeAzxT2kd+VORfmT+VAi0702K6taoQjBUjNKcpu5CNcpGk1MII09RFMWpa444GpEa0hvXTXHHTUtpJ86jtVawLc4IIXfU7bUrCe+YriK3MzrdvIsAkKARBJSBz6HRiAabax4fM3vsRypnIBRQIDtpLafDGvdahsYzE2yguMrMrAvmvWxs2qlc43Uk5o0Mb1cwFy4gDPeW6UN8slt1INpcqpIHblk9M1ABHhuKIjgs999VTUDLzGATzeI7beFLi9xb9zDXAMqlLpOaARDKNttTQ9LeKYQuIUs5uhP7QHokAgfFIYADSNxAMCxxkOhwyuwzlb4Ac5tMywrN1IUgT3pZtcdjR7D+HGkwpH2QpkERvmHWD0qVljKANAZPMZEaie+tUcE0SvJCATG6tEkEDYZctT3L4GbnUHlgldOeAk95oxkqsMouytxBcozZj+zmzgaMZL/5ar4YlwQ2aOTQ3FCZx8KiNYbc1Fj76M5DRop2QkFF0uIF6kn8Kr2uI5BoBmkGfdjKTlzI2+mVazOSUr8FYxdUEUYI0ghoLHW4OvxgAdtRtQH2swgccqglYOX3kafEXYZhDnpO8VNZvG45QkgQzlVUOWQHpHVoEjsKl4xaLqFZVJbNnCIZOUaM77plWB40JS5RdDxXGSPLr+IV2LHYGNgM3juddtqje0GQyDnXUaa5CdpGk1Jxe0EuHI2YLlGeCAxI+ECIO+9FcPcHuGIXNsZnZmXIc3eMrNQbpKi/ei7wVFWzKFipBJZuZZ1lSnUiBqKm9oWBw7woAzoZBJzeS/Y0O1DeH4rI4t/YZZRwedSNMg6dJAI1NXOP3ibDgADmQHSHMCBnHTwqSTUrOZmjzLM8y6HxXZSPECoXano0ajoaivrGo+EzHp086sgWMuXIodiLulTXSSYqvfUCrRiZ8km0RZGAzDrUDa1buyFj7qroB2qyZBohIpLT7m9NphRBaaRXZpE1xwkp4pq06uOEK6ok0hUlmuZx2KktU0jWplECT1pBqPovG8Ew9wsz2wSw1MsJ37HwqxcwNsKIWJ95ME65yC869YHypUq5ik54XZ94tzIM4ZoMnTlA7/uj5UA9tv8AEw/8N377dKlUsvxHx/JFw3mFtWBhj7skwJJ0E1zGYlxEHc3OgPw/DuOlKlTy6QV2Z79YaUOY6nDsfEsTmPrT+IWgloFRBzLrueZ4bfuKVKsng0x7BV7RlYaHMpkadCOlGuJMRaeCf8NBuT1jrXaVTh2x34PNvaRALhgR19Z3qSxiGS2gViA4hhvI0HXY8x1GutKlVYfFDS+RN7RIEuoEGXmTbyqzxf8AwJ6nLJ6nXrSpVJ9r+s5mfG1Mf4W8Mp9Y3pUqshZFNNz4AVWfdfMV2lWjwZ2dxfxDzNVG/AUqVNHonLsgpClSqhMbSpUq44kFI0qVccPXrUlqu0qDCjnep23Xy/ClSpWFH//Z",
+                "name": "Music of the Sun",
+                "year": 2005,
+                "song": [
+                    {
+                        "id": 1,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 2,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 2,
+                "name": "A Girl Like Me",
+                "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/A_Girl_like_Me_-_Rihanna.png/220px-A_Girl_like_Me_-_Rihanna.png",
+                "year": 2006,
+                "song": [
+                    {
+                        "id": 3,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 4,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 3,
+                "name": "Rated R",
+                "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/920e8f71-8207-4689-8385-00c19f544ead/d73em4e-a5092e03-db15-4c84-a101-0b39c3f5f75c.png/v1/fill/w_894,h_894,q_70,strp/album_rated_r_rihanna_by_bastianminaj_d73em4e-pre.jpg",
+                "year": 2009,
+                "song": [
+                    {
+                        "id": 5,
+                        "name": "S.O.S",
+                        "salary": 400
+                    },
+                    {
+                        "id": 6,
+                        "name": "Kisses Don't Lie",
+                        "salary": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Adele",
+        "img": "https://wallpaperaccess.com/full/1695848.jpg",
+        "gender": "female",
+        "data_singer": 1,
+        "albums": [
+            {
+                "album": 4,
+                "name": "21",
+                "img": "https://img.huffingtonpost.com/asset/600e8559250000ff0f1d5dc6.jpeg?cache=QanQO30v0d&ops=scalefit_630_noupscale",
+                "year": 2011,
+                "song": [
+                    {
+                        "id": 7,
+                        "name": "Rolling in the Deep",
+                        "salary": 300
+                    },
+                    {
+                        "id": 8,
+                        "name": "Rumour Has It",
+                        "salary": 150
+                    }
+                ]
+            },
+            {
+                "album": 5,
+                "name": "When We Were Young",
+                "img": "https://img.huffingtonpost.com/asset/5d036e10250000ae13e85a78.jpeg?ops=scalefit_630_noupscale",
+                "year": 2016,
+                "song": [
+                    {
+                        "id": 9,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 10,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 6,
+                "name": "Hello",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEg2BPdVcf7zLv5s7MXmQUAj3IMK8ri-JTnA&usqp=CAU",
+                "year": 2015,
+                "song": [
+                    {
+                        "id": 11,
+                        "name": "S.O.S",
+                        "salary": 340
+                    },
+                    {
+                        "id": 12,
+                        "name": "Kisses Don't Lie",
+                        "salary": 120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Beyonce",
+        "img": "https://wallpaperaccess.com/full/1118004.jpg",
+        "gender": "female",
+        "data_singer": 2,
+        "albums": [
+            {
+                "album": 7,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id":13,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 14,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 8,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 15,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 16,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 9,
+                "name": "Rated R",
+                "song": [
+                    {"id": 17,
+                        "name": "S.O.S",
+                        "salary": 130
+                    },
+                    {
+                        "id": 18,
+                        "name": "Kisses Don't Lie",
+                        "salary": 135
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Taylor Swift",
+        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDQ8NDw0NDw8PDQ0PDQ0NDQ8NDg0OFREWFhURFRUYHSggGBolGxUVITIhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGDcfICIwKystLS0tLSstLSstLS0tLS0tLS03LSs1LS0tLS0tLTUtKy0tLSstLS0tLS0tLS0rLf/AABEIALEBHAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgADBQYHBAj/xABGEAACAQIDBQUEBwMICwAAAAAAAQIDEQQSIQUGMUFRE2FxgZEiobHBByMyQlLh8BRichUzNJKissLDNURTVGRzdIKD0fL/xAAZAQEBAAMBAAAAAAAAAAAAAAAAAQIDBAX/xAAlEQEAAgIBBAICAwEAAAAAAAAAAQIDESEEEjEyE0EiMyNhkVH/2gAMAwEAAhEDEQA/AONEDYNjJAsGwUhkggWCkGwUgAkFIawUgFSGSGSCkAthkhkg5QFSDYewbFCWJlLLEsAliZS5UZWvbTq9AKm+71RNmlVgWLZQadmrPo9AWKKrAcS2wLAVNAsWtAaAqsCxY0CwFdgWLLAaIK2hbFjQLAV2BYsaFaASwLDtAaCkAO0KA6QUiJDJBASGSCkFICJBSCkMkAEhkgpDJFQqQyQUhkgAkGwUg2ACQbDJHrwODc3dp5V6y7iTOo3KxEzOoeRQ0u9F1fPuQrnbVLRcH3mxVNkN6z009mK0yx693z9QUthSnepJqlRjwcrLgaZzQ3RhlqtatUnpqlyVrRKVJxZseMlg6atC9V/iekfzMHi534KK6WVviZ1tv6Y2rr7PRxWqvrbk9TYqGDoYineGWMraZXqn0aNNTM1sKc+0WW+a+jWvquhbxxtKTzoK9CUJOElZp2ZW0bDtvC5oKrZ546VPDqYGxaW7o2xvXtnSuwrRZYDRkxVNAsWNAsBW0CxZYDQFTQGiywGgqpoDRY0K0QVtAaHaA0BW0AdoFgGSGSIkMkBEhkiJDJFESCkFIZIICQyQUgpARIKQUg2AFhrECBEjZ93l7UY2vl1b4u/60MBhKLnJLz+RtOwXGnKV9dU343so/r5GjPPGnRgrztmP2JtuTVrvRd75+h4tt4KThlWaXDnpFc7LkW7X2m4Qsnq5NRs7Jyb1bfRK3vMlsfaFCUFCLdSaftVHG1Nd6vq+Zy6mOXVxPDnmN2ZOOslreyVvdbqY7E7OnFXleN+T0udbxeCgvrI01KeXStiGlGC/dSVl7vM0nbmAouUpSxtKcvwUIVJ27s3A20yzLTfFENIlTV9DYN1qcVWlN6qKtbnJvQ8lTDxT0WifPizddxdiqdCpVktXP2H4LU2Xv+LDHj3ZZjaUZw7WEU9HGpFffXh1NJxVLLOUeV/Z8ORvW25xpppOL01jwbXcanj4JpS6vi+KJisuarGNCtDtCs6XKVoWw7A0AlgWHAAjQrQ7QGgEaFaLGhWgK2hWixoVoiq2hbFjQoDJDpAQyAKQyQEMioiQyREFAFDJEQQIkMBDAQJAgZnY9C1KpWtrbJD+JvT0umZChXhTV+UZJcOUV7TfXV+9nohgnTwWHjb2pTzvxt+aMfClnjUWmkJ279G377nFedzMu2kaiGHxWMdSTnJt3lLLFvRJs92ya80075V/E18DHYTB9rUtd24dNDbNibJo6xtTqvm88ZSjp0LaYiFpWZls+yqinTWaEJq3C8pOXk7nl2pRw6i74Z00lo0+zXkklc2bY2yabhdONuFmrtHtr7JwdP26kHUkuGd317o8Dm26e36ckwu79bF1slCk8t/am07RXe2dIwOBhhaMKEVpCNpN83zfqDFbw0aCyTqUcLDioQy58r56r3nmni6NaEalCvOopc3NVIzXj3GVpmY5K1rG9eXP9+pp4hxXFWa8yirhH+w4eo3/ADrkr9O/1R7d88FKWJUrcKN2+TtL8xNsSyYLB4bVOLea3JzTb/vM31nirmvHNmu4ylllH96EZfJ+9HnsevaE3KUb8oKPlmbXxPKddfDit5KxWOxTJCgGAArAxgECNAaHYrARoVodisBGhbDsUimQyAhkUFDICGQQUMhUMgGQQIZARDIAQCWUIpyim7K6v4cysso21fgl5knwseW37Tx944amtG6bqWX3U7ZV6IxWEvO8Fxkmu67/ADKFKVXFJJ2yxio9Hlje3y8x6VKdOrOPCUX7r308UcUxp3V5ZbdjYTxEJ0klf2JNyTaspJ5WlydrPxN92VupkrftDhRTtaNOMZKnBtWbjHlxdtdL9yKNyqUYOrUtpUVOUe5Wba9Td6E01oa65J3PLdbHERE6YvslSq07N3kmpcEn0diVoxqV5Rlf7CUbcur/AF0JiW5YqMbcI39SuveGIg3wk0veYNsQ8uP3YjUqQxCcO0p5cj7NZXlu4ykucld6+p49mbtUsIqk0k51JynUnljHNLwSSRuTmlEwm2MRaEjO95mNTLXjrEzMxDQdrU+2xPZLjKM0vd+RhttYOVWrU/DCso3XGy00/qs2qMYwUcU0rp123zSThZP0fqPSwC1bWso0pP8Aik5P4sndrWktXcy5ntmllqZe5P1SZjjLbx0XDEzg7+zZXfSya9zS8jFHoY53WHm5I1aQYrGAbGBQDMDCFYBgMKRgYzFZArFY7FYCMVjsVkUUMhUMioZDIVDIBkMhUMgGQQIKAYIEQAlkNWklrxXiVj0puMlJcU014oSsNs3Y2fnrRqcsnaX/AIXEztbZS7aOI00hOM+maF1m9PgYzdDaSUqqX2ZYetOMXykmrpe5GXwW0Kf8n1LyblFScr8bTTXnr8TzslZ29DHaNPRudis8HrrF2t3cvmbtgapyHdLHvD4iKm7Qm1Cd+Cb4Pyat5s6rhZ34O2nHiabRqzqrPdV6sRhXKp2kZOMtNfAp7BualOWZ3Tvy05HPNs7TxKx06ONnjFFNuh+xVoYaOXlOKkvbfjLqeTaG14012uHq7UeIclaricRQUVbTL2UFLMtOGhdu6nQXmI/v+uP9265VqaGu7an7L8D07KrV5YWlPEZVWlBOpGMcqi3ytd6mvb1bQywcY/ak1FW5Xds3kPMuKY7NtbwzefFSvpVhGMf+6SS9yZnNtbZ7KU8rV0oJLTinp8DXKM250qUVo+xc5PpHNoeXb9SWZp8XK7u+HH/2zbrdnLvh5978RCtWhXhpnowzrpJXXyZr56MW24q9+Hz4HnO7F6uHL7AQJLGbWWwBgAKwMZigKxWOxWAjFY7EYCsVjMUKKGQiGQDoZCIZBDoYVDIBkFCoYBkQCCAQgQQMpu/XccQld/WQnTevWOnvSNswWyJ5JTlrH7NOC+878X1s2/Q03ZGXt6d7r24634anVtlWlh6U+MXRjOPfn/8ApnD1O4nh29NzHLSNobOnGE2k/ZjKTa6o2zczatSeHg5vM4JRnLyVm/FNPzLpOLlGFvZcbN/xN8fgeDd2P7JtCdBq1KcYOm+Vney9br0NG911Lpji0S3WWCw2KhlrUqdWKd0pxUrPquhXS3awFGSqQwtKMo6xlbM4vubvYtqYZxkpU5OCfFJXj6Frwk5q068mnxUYqN/PUkN3yWiNRbUf8Y3HYpt9lTWaT5Lkur6I17ePZqVOMM/1kqkZTn3LVpdFbrouZtco06LtGKXRLi31bNY29Xi5Nza4puC++09I+CevkSJ1KTzDF4KnSg4Wt0pp65tdZvnb0v3aJYjeSjnmpRTs+Da1nb73r8C2niYqrKc5XlJ2jFcZWS9w2NxX1qbjqp5Uo6tuN9Pd+ueyu9tFta01TaVPLJ0+cWr+K4o8R7drRlCrPO9c7vfm+b954U0ehj9Xn5fZCEugGbWgGEDAArCwMAMRjMVgBisLFYCsVjMQiohkIhkwHQyEQyKixDIRMZAOFCoKAcKFCgGIAIDQm1qjo+x9sr+TcO4tZoOnSmnys3FX8XF+pzYymwsXOM+xWsajeZa3bdmreDV/U056brtuwX1bTccJtRzqyTj7Mk5L9yWf4ar0Mhiql3BP7cdac+kdLxfhp+kYjB1aKhKV1KbpOmo9ZPg/X59xlcNRnaKlq8uvrp7mcExqdvQry3jZVXtKUb8bI9mkVrf4mP2THLGPDh+kZhpP5khbTprWPqSlKWSDT639rzfJHPt4qsouTvmyxk78nLRaP0Ok7Z27svDpwrY3CU5Wb7PtYOp45I3k/Q5jvHvbga8lTwcZzdOnUcZ1KbhCdlfRO0m9G9UuBlXHbe9JbLTt8sZgpXx1OUrZYRXHROenH1uZXE4unCtBwcZXqpJ3vlfsteb4+ZpOJ2i/tRftN3T4St10/ViYXaL9uDt7eapGS0aqpOz8eK8zq+GZ5cnzxHD3b67Ro1sRLsYuylJdo5P21FXk0uCV+BrXay6v1BUk3z6iyOqtYrGnJa02ncm7WXV+pt+7+w1isGq0ZSU4znCXNNrVXXg0aajqf0MRVSljaP4KlGp/XjKP+Wa80zFNw29PFbX1Zqe0Nl1qH24+z+JcPPoeA7XtjYsJU5JpNNNHHdp4Xsa06fJN28DDDm7+J8tvUYIpzXw8rFYWBs3uUGKwsRgBisLFYAYpGKRQTGTK0xkwLExkytMZMotTGTK0xkwixDIrTGTAsTCmImFMB7klJJXbsizC0J1JqEFdv3eJsG1t3I0tm16uXNUjCMnN8kpxbt00uYWvFZiGyuO1omY+mpTx0FwTfuH2TtGSxdJtqMc1nfldNJ+rRiQpGcxuNNcTqds3jtr4inXk6U3C05cotxd+DuuXDyPat8ceqUbYmXaXd59nS0jyX2bGu1azk80tZNJSf4u994qMfjr9wy+S31LN1N7dqSVntDEpdIVOyX9mxj8Tj8RV0q4ivV7qtapUX9ps8pDOKxHiGM2mfMitOGnhoNTqOMlJcU7oQBWJ5Svbu+AYys14poruEASeoGRkACOl/QbiLY3F0vx4OM1/46qX+Yc0Ruv0P4jJtiMf9phsRD3Rn/gNeX0ltw/sh2raCumjjW++Hy189uLa+Z2XGPQ5nv8AYW9OU7fZkmcGGdXh6eeu8ctBFZLitnovJRsVsjYrYVGxGwtiNkEYtyNi3ACYUxEwpgWJjJlaYUwLUxkypMZMC5MZMpTHTKLbhTK0wpgbvuJs9S+sa1lL3I6LjdjRr4OvQa/ncPVpq3FOUGkaJ9H9X6uK6N/E6dhMUsttDzr2/kmXp46/xxD5c5LwImeza0FHFYmK4RxOIivBVJJHiZ6W3lTB7hTETCUWXDcrTDcIcALkuBGFAuAKLIC5AIjYvo5rZNtYR9ZVY+tGaNdRkd1quTamClf/AFvDrylNR+Zhk5rLPHxaJfROLdzS974ZqFTT7rNvr3UfI07eep9VNdz9LHlUnmHsW8S5XcDYtwNnqvGFsVsDYrYEbFbI2K2BGwAbAAtw3FuEKdMKYlwphDpjJldwpgWpjJlVwpgXJjKRSmMmBu24OIs3DpO50qlVtqce3NxGXE5etjqdKd0teR5+eNXel087pDiW8lPJj8XH/iaz8pScvmY1m3fSVsx0cXGuvsYiOrXKpHR38Vb0ZqKZ347d1Yl5+SvbeYAiYQGbAQ3AQBkyXFJcIa5LikCjcNxSXAa5k9z8M621cFTX+9UZPwhLO/dExTZm9wKijtfCSfKdT17OSMLz+Ms6R+UPoLGJZTnu9E9JrufwN+dXNDxRoO90bNnmU8vVt6uYtgbDWVpSXRsrbPU28kWxWwNguEFsVsFwXCjcW5LguQAJCAEICFDERCBDBQSAFDAIBld2f6XT/XNHWcLwRCHD1Ps9DpfRqv0pf0Kl/wBRH+7I5gQh0dN+tzdT+xERhIb3OBCEAIAkACCQgAIQgVGZPc7/AEnhf+b/AIWQhjk9ZZY/aHfsJ9nyNO3v5kIeXTy9W3iXLsb/ADs/EoIQ9Svh5VvaQFZCFQAMhCAAZCAf/9k=",
+        "gender": "female",
+        "data_singer": 3,
+        "albums": [
+            {
+                "album": 10,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id": 19,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 20,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 11,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 21,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 22,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 12,
+                "name": "Rated R",
+                "song": [
+                    {
+                        "id": 23,
+                        "name": "S.O.S",
+                        "salary": 190
+                    },
+                    {
+                        "id": 24,
+                        "name": "Kisses Don't Lie",
+                        "salary": 155
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Justin Bieber",
+        "img": "https://i0.wp.com/i.pinimg.com/originals/d7/55/88/d75588a8d47d478d56bdbfc877c83195.jpg",
+        "gender": "male",
+        "data_singer": 5,
+        "albums": [
+            {
+                "album": 13,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id": 25,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 26,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 14,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 27,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 28,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 15,
+                "name": "Rated R",
+                "song": [
+                    {
+                        "id": 29,
+                        "name": "S.O.S",
+                        "salary": 110
+                    },
+                    {
+                        "id": 30,
+                        "name": "Kisses Don't Lie",
+                        "salary": 325
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Lady Gaga",
+        "img": "https://wallpaperaccess.com/full/301255.jpg",
+        "gender": "female",
+        "data_singer": 6,
+        "albums": [
+            {
+                "album": 16,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id": 31,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 32,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 17,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 33,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 34,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 18,
+                "name": "Rated R",
+                "song": [
+                    {
+                        "id": 35,
+                        "name": "S.O.S",
+                        "salary": 160
+                    },
+                    {
+                        "id": 36,
+                        "name": "Kisses Don't Lie",
+                        "salary": 610
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Chris Brown",
+        "img": "https://wallpaperaccess.com/full/232285.jpg",
+        "gender": "male",
+        "data_singer": 7,
+        "albums": [
+            {
+                "album": 19,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id": 37,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 38,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 20,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 39,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 40,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 21,
+                "name": "Rated R",
+                "song": [
+                    {
+                        "id": 41,
+                        "name": "S.O.S",
+                        "salary": 210
+                    },
+                    {
+                        "id": 42,
+                        "name": "Kisses Don't Lie",
+                        "salary": 115
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bruno Mars",
+        "img": "https://wallpaperaccess.com/full/414100.jpg",
+        "gender": "male",
+        "data_singer": 8,
+        "albums": [
+            {
+                "album": 22,
+                "name": "Music of the Sun",
+                "song": [
+                    {
+                        "id": 43,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 44,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 23,
+                "name": "A Girl Like Me",
+                "song": [
+                    {
+                        "id": 45,
+                        "name": "Pon De Replay",
+                        "salary": 200
+                    },
+                    {
+                        "id": 46,
+                        "name": "Here I Go Again",
+                        "salary": 100
+                    }
+                ]
+            },
+            {
+                "album": 24,
+                "name": "Rated R",
+                "song": [
+                    {
+                        "id": 47,
+                        "name": "S.O.S",
+                        "salary": 330
+                    },
+                    {
+                        "id": 48,
+                        "name": "Kisses Don't Lie",
+                        "salary": 80
+                    }
+                ]
+            }
+        ]
+    }
+]
